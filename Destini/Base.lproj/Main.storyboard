@@ -60,9 +60,8 @@
                                     <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="17E-TM-9cz"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDS-po-uTC">
-                                <rect key="frame" x="138" y="28" width="99" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDS-po-uTC">
+                                <rect key="frame" x="138" y="40" width="99" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="RESTART">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,14 +75,17 @@
                             <constraint firstItem="YYD-qC-cgr" firstAttribute="top" secondItem="u0E-Z6-us4" secondAttribute="bottom" constant="34" id="1pn-V9-Sph"/>
                             <constraint firstItem="Erf-gv-fGo" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="48o-b2-ESo"/>
                             <constraint firstAttribute="trailing" secondItem="u0E-Z6-us4" secondAttribute="trailing" constant="16" id="A5L-N2-gpr"/>
+                            <constraint firstItem="kDS-po-uTC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="122" id="AVH-rk-qBq"/>
                             <constraint firstItem="u0E-Z6-us4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="H73-ur-bFp"/>
                             <constraint firstItem="amk-E0-c5D" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Hea-Xq-KoH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kDS-po-uTC" secondAttribute="trailing" constant="122" id="QqQ-5w-wAf"/>
                             <constraint firstItem="amk-E0-c5D" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="SOg-Hz-lzD"/>
                             <constraint firstItem="Erf-gv-fGo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TjW-ZR-YTx"/>
                             <constraint firstItem="amk-E0-c5D" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="UWG-Ch-uBS"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="YYD-qC-cgr" secondAttribute="bottom" constant="18" id="Zil-rd-Zl2"/>
                             <constraint firstAttribute="trailing" secondItem="Erf-gv-fGo" secondAttribute="trailing" id="Zqj-Tf-xWO"/>
                             <constraint firstItem="YYD-qC-cgr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="d5M-i4-lR2"/>
+                            <constraint firstItem="kDS-po-uTC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="gn6-lu-3TX"/>
                             <constraint firstAttribute="trailing" secondItem="YYD-qC-cgr" secondAttribute="trailing" constant="16" id="mba-eL-D4o"/>
                             <constraint firstItem="u0E-Z6-us4" firstAttribute="top" secondItem="amk-E0-c5D" secondAttribute="bottom" constant="8" id="o7B-8v-9JJ"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Erf-gv-fGo" secondAttribute="bottom" id="oHQ-qB-aKu"/>
